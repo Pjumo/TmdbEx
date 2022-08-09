@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_icon_height">20dp</dimen>
+    <dimen name="main_search_btn_size">40dp</dimen>
+    <dimen name="main_search_btn_margin_end">10dp</dimen>
+    <dimen name="main_welcome_text">18sp</dimen>
+    <dimen name="main_welcome_description_text">13sp</dimen>
+    <dimen name="main_welcome_text_margin">16dp</dimen>
+    <dimen name="main_category_text">16sp</dimen>
+    <dimen name="main_category_margin">16dp</dimen>
+    <dimen name="main_tab_margin">12dp</dimen>
+    <dimen name="contents_poster_margin">12dp</dimen>
+    <dimen name="contents_poster_height">180dp</dimen>
+    <dimen name="contents_poster_width">120dp</dimen>
+    <dimen name="contents_rating_progress_size">30dp</dimen>
+    <dimen name="contents_rating_progress_margin">8dp</dimen>
+</resources>

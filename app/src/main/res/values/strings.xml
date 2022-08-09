@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TmdbEx</string>
+    <string name="goto_main">GoTo Main</string>
+    <string name="welcome">Welcome.</string>
+    <string name="welcome_description">Millions of movies, TV shows and people to discover.</string>
+    <string name="popular">What&apos;s Popular</string>
 </resources>
