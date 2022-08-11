@@ -35,4 +35,15 @@
         app:progress_stroke_cap="round"
         app:style="solid" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/contents_title_margin_start"
+        android:layout_marginTop="@dimen/contents_title_margin_top"
+        android:textColor="@color/black"
+        android:textSize="@dimen/contents_title_text"
+        app:layout_constraintStart_toStartOf="@id/contents_poster_cover"
+        app:layout_constraintTop_toBottomOf="@id/contents_poster_cover"
+        tools:text="Title" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
