@@ -2,8 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/contents_poster_cover"
@@ -23,23 +23,30 @@
     </androidx.cardview.widget.CardView>
 
     <com.dinuscxj.progressbar.CircleProgressBar
+        android:id="@+id/contents_rate"
         android:layout_width="@dimen/contents_rating_progress_size"
         android:layout_height="@dimen/contents_rating_progress_size"
         android:layout_marginStart="@dimen/contents_rating_progress_margin"
         android:elevation="10dp"
+        app:drawBackgroundOutsideProgress="true"
         app:layout_constraintBottom_toBottomOf="@id/contents_poster_cover"
         app:layout_constraintStart_toStartOf="@id/contents_poster_cover"
         app:layout_constraintTop_toBottomOf="@id/contents_poster_cover"
         app:progress_background_color="@color/rating_progress_bg"
+        app:progress_end_color="@color/rating_progress_color"
         app:progress_start_color="@color/rating_progress_color"
         app:progress_stroke_cap="round"
+        app:progress_text_color="@color/white"
         app:style="solid" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/contents_title"
+        android:layout_width="@dimen/contents_title_width"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/contents_title_margin_start"
         android:layout_marginTop="@dimen/contents_title_margin_top"
+        android:ellipsize="end"
+        android:maxLines="2"
         android:textColor="@color/black"
         android:textSize="@dimen/contents_title_text"
         app:layout_constraintStart_toStartOf="@id/contents_poster_cover"

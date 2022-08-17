@@ -15,6 +15,7 @@
     <dimen name="contents_rating_progress_size">30dp</dimen>
     <dimen name="contents_rating_progress_margin">8dp</dimen>
     <dimen name="contents_title_text">13sp</dimen>
+    <dimen name="contents_title_width">110dp</dimen>
     <dimen name="contents_title_margin_start">8dp</dimen>
     <dimen name="contents_title_margin_top">20dp</dimen>
 </resources>
